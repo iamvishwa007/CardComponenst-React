@@ -1,0 +1,22 @@
+fieldset {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  height: 700px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: larger;
+  color: #070f11;
+}
+.allcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 70px;
+   
+    
+}
