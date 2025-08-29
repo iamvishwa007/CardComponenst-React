@@ -1,6 +1,6 @@
 import './Cards.css'
 import SingleCard from './Components/SingleCard'
-import img8 from '../assets/images/img8.webp';
+import img8 from './assets/images/img8.webp';
 
 export default function Cards() {
   return (
