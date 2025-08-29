@@ -1,5 +1,6 @@
 import './Cards.css'
 import SingleCard from './Components/SingleCard'
+import img8 from '../assets/images/img8.webp';
 
 export default function Cards() {
   return (
@@ -29,7 +30,7 @@ export default function Cards() {
          imgsrc="\src\assets\images\img7.webp" rating="4.9" likes="6.0k" brand="Peter England" title="T-Shirts" price="Rs.1200" oldprice="Rs.1500" discount="15"
          />
         <SingleCard
-         imgsrc="\src\assets\images\img8.webp" rating="4.8" likes="5.9k" brand="Zara" title="T-Shirts" price="Rs.799" oldprice="Rs.1599" discount="65"
+         imgsrc={img8} rating="4.8" likes="5.9k" brand="Zara" title="T-Shirts" price="Rs.799" oldprice="Rs.1599" discount="65"
          />
         </div>
       </fieldset>
