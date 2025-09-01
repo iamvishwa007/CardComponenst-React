@@ -1,13 +1,17 @@
+import { useState } from 'react'
 import './SingleCard.css'
 
 export default function SingleCard({ imgsrc, rating, likes, brand, title, price, oldprice, discount }) {
+  const[like,setLike]=useState(likes);
   return (
-    <a href="https://example.com/product" className="Single-ctn">
+    <div className="Single-ctn">
       <div className='img-container'>
         <img src={imgsrc} alt={title} />
         <div className='rating'>
           <span>{rating}</span>
-          <span>{likes}</span>
+          <span>
+            <button className="likebutton" onClick={()=>{setLike(like+1)}}>{like}❤️</button>
+          </span>
         </div>
       </div>
 
@@ -20,6 +24,6 @@ export default function SingleCard({ imgsrc, rating, likes, brand, title, price,
           <span className="discount">({discount}%)</span>
         </div>
       </div>
-    </a>
+    </div>
   )
 }

@@ -11,7 +11,7 @@ const Data = [
   {
     imgsrc: img1,
     rating: "4.5",
-    likes: "8.6k",
+    likes:8,
     brand: "H&M",
     title: "T-Shirts",
     price: "Rs.1500",
@@ -21,7 +21,7 @@ const Data = [
   {
     imgsrc: img2,
     rating: "4.0",
-    likes: "7.5k",
+    likes:75,
     brand: "Beer House",
     title: "T-Shirts",
     price: "Rs.999",
@@ -31,7 +31,7 @@ const Data = [
   {
     imgsrc: img3,
     rating: "3.8",
-    likes: "6.0k",
+    likes:60,
     brand: "H&M",
     title: "T-Shirts",
     price: "Rs.989",
@@ -41,7 +41,7 @@ const Data = [
   {
     imgsrc: img4,
     rating: "4.9",
-    likes: "10.9k",
+    likes:109,
     brand: "Gucci",
     title: "T-Shirts",
     price: "Rs.699",
@@ -51,7 +51,7 @@ const Data = [
   {
     imgsrc: img5,
     rating: "5.0",
-    likes: "12k",
+    likes:120,
     brand: "Zudio",
     title: "T-Shirts",
     price: "Rs.499",
@@ -61,7 +61,7 @@ const Data = [
   {
     imgsrc: img6,
     rating: "3.5",
-    likes: "4.5k",
+    likes:45,
     brand: "Levis",
     title: "T-Shirts",
     price: "Rs.699",
@@ -71,7 +71,7 @@ const Data = [
   {
     imgsrc: img7,
     rating: "4.9",
-    likes: "6.0k",
+    likes:60,
     brand: "Peter England",
     title: "T-Shirts",
     price: "Rs.1200",
@@ -81,7 +81,7 @@ const Data = [
   {
     imgsrc: img8,
     rating: "4.8",
-    likes: "5.9k",
+    likes:59,
     brand: "Zara",
     title: "T-Shirts",
     price: "Rs.799",
